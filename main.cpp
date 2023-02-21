@@ -2,9 +2,6 @@
 #include "knapsack.h"
 #include "solver.h"
 // read conditions
-// 	class:
-// 		Conditions
-// 			Conditions - ctor(const vector<> & , const vector<> &, int)
 // 		Knapsack
 // solve the problem
 // 	class:
