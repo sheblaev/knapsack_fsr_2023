@@ -1,7 +1,6 @@
-class Conditions {};
-class Knapsack {} ;
-class Solver {} ;
-
+#include "conditions.h"
+#include "knapsack.h"
+#include "solver.h"
 // read conditions
 // 	class:
 // 		Conditions
