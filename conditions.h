@@ -8,11 +8,13 @@ using namespace std;
 
 class Conditions {
 	public:
+		Conditions() {};
 		Conditions(const vector<int> & v, const vector<int> & w, int K) ;
-		bool is_good(Knapsack& knapsack); 
+		bool 	is_good(Knapsack& knapsack); 
+		int 	size(); 
 	private:
 		vector<int> m_v;
 		vector<int> m_w;
-		int m_k;
+		int m_K;
 };
 #endif

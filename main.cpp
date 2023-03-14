@@ -24,7 +24,7 @@ int main() {
 	int n;
 	
 	cin >> n;
-	cin >> k;
+	cin >> K;
 	v.resize(n);
 	w.resize(n);
 	for (int i = 0; i < n; i++) {
@@ -33,7 +33,7 @@ int main() {
 	}
 
 	Conditions the_cond(v, w, K);
-	Solver the_solver(cond);
+	Solver the_solver(the_cond);
 	the_solver.solve();
 
 	vector<int>& solution = the_solver.solution();
