@@ -1,5 +1,5 @@
 all:  main.o knapsack.o solver.o conditions.o
-
+	g++ *.o -o knapsack
 main.o: main.cpp
 	g++ -c main.cpp
 
